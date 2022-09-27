@@ -28,7 +28,7 @@ def use_medkit():
             player['items'].remove("medkit")
             fprint("You used your medkit",3)
             player['health'] = 100
-            printf(f"\nHealth:{player['health']}")
+            print(f"\nHealth:{player['health']}")
     else:
         fprint("You don't have a medkit")
 
